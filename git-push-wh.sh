@@ -8,5 +8,7 @@ POST_PUSH="$GIT_DIR_/hooks/post-push"
 
 git push origin master"$@"
 
+echo $@
+
 test $? -eq 0 && test -x "$POST_PUSH" &&
-      exec "$POST_PUSH" "$BRANCH" "$@"
+      bash "$POST_PUSH" "$BRANCH" "$@"
