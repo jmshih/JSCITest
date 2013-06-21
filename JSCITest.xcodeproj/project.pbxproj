@@ -430,6 +430,8 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSCITest/JSCITest-Prefix.pch";
 				INFOPLIST_FILE = "JSCITestTests/JSCITestTests-Info.plist";
@@ -448,6 +450,8 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSCITest/JSCITest-Prefix.pch";
 				INFOPLIST_FILE = "JSCITestTests/JSCITestTests-Info.plist";
@@ -477,6 +481,7 @@
 				CD273568176FF2A900CDA0F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD273569176FF2A900CDA0F8 /* Build configuration list for PBXNativeTarget "JSCITestTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +490,7 @@
 				CD27356B176FF2A900CDA0F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
